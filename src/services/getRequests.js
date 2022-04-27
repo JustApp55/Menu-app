@@ -24,8 +24,8 @@ export const createProduct = (add) => {
     return response
 }
 
-export const editProduct = (id, updatedTheProduct) => {
+export const editProduct = (id, updateTheProduct) => {
     const URL = `http://localhost:3001/products/${id}`
-    const response = axios.put(URL, updatedTheProduct)
+    const response = axios.put(URL, updateTheProduct)
     return response
 }

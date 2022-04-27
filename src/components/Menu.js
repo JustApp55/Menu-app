@@ -16,27 +16,30 @@ export default function Menu() {
     return (
         <div className="menu">
             <h1 className="index">Menu Items</h1>
-               <nav id="btn" >
+                 <nav id="btn" >
                  <button onClick={()=> {nav("/create")}} >New Menu</button>
-               </nav>
-              <ul></ul>
-              {foods.map((food) => {
-                //   const {id, title, price, image, desc} = food;
+                 </nav> <br/> <br/> <br/> 
+             
+                 {foods.map((food) => {
+                //   const {id, title, price, img, desc} = food;
                   return(
-                    // <article key={id} className="food-item">
                     <article className="food-item">
+                        
                           <a href={`/${food._id}`}><img style={{height:'300px',  width: '300px'}} src={food.img} alt=" "/></a>
                       <div className="item-info">
-                        <header>
+                        <header id="heada">
                             <h3 className="title">{food.title}</h3>
                             <h3 className="price">${food.price}</h3>
                         </header>
                           <p className="desc">{food.desc}</p>
                       </div>
-                    </article>
+                  
+                   </article>
                   )
               })}
-         
+            
         </div>
     )
 }
+
+{/* <article key={id} className="food-item"> */}
