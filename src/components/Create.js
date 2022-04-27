@@ -12,7 +12,7 @@ export default function Create() {
             category: e.target.category.value,
             price: e.target.price.value,
             img: e.target.img.value,
-            description: e.target.desc.value
+            desc: e.target.desc.value
         }
         console.log(product)
         createProduct(product)
