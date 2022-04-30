@@ -1,4 +1,5 @@
 import '../App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { createProduct } from '../services/getRequests'

@@ -1,4 +1,5 @@
 import '../App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { getProduct, deleteProduct } from '../services/getRequests'
@@ -25,9 +26,10 @@ const deleteTheProduct = () => {
             <h1 className="order">Your Order</h1>
                    {/* <div className="showd"> */}
 
-              <img style={{height:'400px', width: '400px'}} src={order.img} alt=""/> <br/>
+              <img style={{height:'600px', width: '600px'}} src={order.img} alt=""/> <br/>
               <h3 className="ot">{order.title}</h3> 
-              <h3 className="op">{order.price}</h3> <br/>
+              <h3 className="op">{order.price}</h3> 
+              <p className="op">{order.desc}</p> <br/>
 
                     {/* </div> */}
             <button onClick={() => {nav(`/${id}/edit`)}} className="ed">Edit Order</button>

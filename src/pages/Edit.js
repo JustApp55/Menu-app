@@ -1,4 +1,5 @@
 import '../App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { useNavigate, useParams } from 'react-router-dom'
 import {React, useState, useEffect} from 'react'
 import { editProduct, getProduct } from '../services/getRequests'
