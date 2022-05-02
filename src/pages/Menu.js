@@ -41,12 +41,12 @@ export default function Menu() {
                  
           <div className="row" >
             <div className="fill  btn-group" >
-                <button className="btn btn-secondary w-25 mb-3"  onClick={() =>setData(lists)} >All</button>  
-                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Breakfast')}>Breakfast</button> 
-                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Lunch')}>Lunch</button> 
-                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Dinner')}>Dinner</button>
-                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Drinks')}>Drinks</button> 
-                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Dessert')}>Dessert</button> 
+                <button className="btn btn-secondary w-25 mb-5"  onClick={() =>setData(lists)} >All</button>  
+                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Breakfast')}>Breakfast</button> 
+                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Lunch')}>Lunch</button> 
+                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Dinner')}>Dinner</button>
+                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Drinks')}>Drinks</button> 
+                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Dessert')}>Dessert</button> 
             </div>
           </div>
 
@@ -70,7 +70,7 @@ export default function Menu() {
                  <div className="menu" >
                     <div className="col-md-3 ">
                        <div className="row">
-                       <div className="col-md-4 mb-4">
+                       <div className="col-md-3 mb-4">
                         <div className="card" >
                             <a href={`/${food._id}`} ><img src={img} className="card-img-top" alt=" " /></a>
                            <div className="card-body">
