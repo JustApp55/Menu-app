@@ -1,71 +1,78 @@
-# Getting Started with Create React App
+# Menu App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/JustApp55/Menu-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Usage of the website
+A display of all items on Index Page
+    ![Index Page of Items!](/public/images/index.png "Index Page")
 
-### `npm start`
+To see only certain category (breakfast, lunch, drinks, & dessert) of food items, click one of the gray buttons below the "Menu Item" header on the Index page.
+     ![Category of Items!](/public/images/category.png "Index Page")
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+On Index page, click on any image-item of your preference to know more of the food item and will be taking to the Show Page
+    ![Show Page of individual product!](/public/images/show.png "Index Page")
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Click on Create New Product button on Index Page to take you to List New Item page
+    ![List New Item page to list new product!](/public/images/new.png "List New Item page")
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
+This section lists any major framework/library used for this project
 
-### `npm run build`
+- Express
+- React
+- Bootstrap
+- JavaScript
+- Node
+- Mongo/Mongoose
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
+    Setting up project locally, follow these simple steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ### Prerequisites
+     What you need to do before installing locally
+     - fork and clone this repo to your terminal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ### Installation - CLI
+    1. Clone the repo
+        git clone https://github.com/JustApp55/Menu-app
 
-### `npm run eject`
+    2. Install nmp packages
+        npm init -y
+        npm install
+    
+    3. Install express packages
+        npm i express express-react-views react@16 react-dom@16 method-override
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Challenges During this Project
+My original goal for the Menu app was to make this a fullstack application. Since I would like to teach myself other frontend applications, I decided to keep the frontend and backend separate, using the backend as an API for any frontend.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I decided to use React to know the framework well. It was part of the cirriculum at Per Scholas and a requirement for Project 3. This project was my opportunity to create a React application from start to finish.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+I decided to build a backend application with Node, Mongoose, and Express, which you can view [here] (https://github.com/JustApp55/Menu-api)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This application is deployed on heroku: [https://jamenu-app.herokuapp.com/](https://jamenu-app.herokuapp.com/)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Menu-app
+## Contributing
+    1. Fork it
+    2. Create your feature branch: git checkout -b my-new-feature
+    3. Commit your change: git commit -am "Add some feature"
+    4. Push to branch: git push origin my-new-feature
+    5. Submit a pull request:D
+
+## License
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, or distribute copies of the Software.
+
+
+
+
+
+
+
+
+
+

@@ -46,18 +46,18 @@ body{
 /* ................................ Menu Page .......................... */
 
 .index{
-  /* font-size: 50px;
-  line-height: 32px;
+  /* font-size: 50px; */
+  /* line-height: 32px;
   letter-spacing: 5px;
-  text-align: center;
+  text-align: center; */
 
-  border:10px solid black;
+  /* border:10px solid black;
   min-height: 2rem;
   resize: both;
-  background: #ffd73e33;
+  background: rgb(243, 218, 79); */
 
 
-  display: flex;
+  /* display: flex;
   overflow: hidden;
   justify-content: center;
   align-items: center;
