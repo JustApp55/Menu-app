@@ -72,12 +72,12 @@ body{
   color: rgb(107, 102, 102);
 
   position: relative;
-  top: -30px;
+  top: -20px;
 }
 
 #new{
   position: relative;
-  top: -140px;
+  top: -100px;
   left: -35.5%;
   color: rgb(107, 102, 102);
 }
