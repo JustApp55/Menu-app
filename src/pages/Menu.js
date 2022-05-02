@@ -39,7 +39,7 @@ export default function Menu() {
                    <button type="button" className="btn btn-secondary pull-right"  onClick={()=> {nav("/create")}} >New Menu</button>
                 </nav> <br/> <br/> <br/>             
                  
-          <div className="row margin-auto" >
+          <div className="row" >
             <div className="fill  btn-group" >
                 <button className="btn btn-secondary w-25 mb-3"  onClick={() =>setData(lists)} >All</button>  
                 <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Breakfast')}>Breakfast</button> 
