@@ -12,9 +12,6 @@ export default function Menu() {
    const [foods, setFoods] = useState([])
    const [data, setData] = useState(lists)
 
-   
-    // const [categories, setCategories] = useState(allcategories)
-    // const [dish, setDish] = useState(foods)
     
     useEffect(() => {
         getProducts()
@@ -26,7 +23,7 @@ export default function Menu() {
         const results = lists.filter((curInfo) => {
             return curInfo.category === catItem;
      })
-     setData(results)
+     setFoods(results)
     }
 
 
@@ -41,7 +38,7 @@ export default function Menu() {
                  
           <div className="row" >
             <div className="fill  btn-group" >
-                <button className="btn btn-secondary w-40 mb-3"  onClick={() =>setData(lists)} >All</button>  
+                <button className="btn btn-secondary w-40 mb-3"  onClick={() =>setFoods(lists)} >All</button>  
                 <button className="btn btn-secondary w-40 mb-3" onClick={() => filterItems('Breakfast')}>Breakfast</button> 
                 <button className="btn btn-secondary w-40 mb-3" onClick={() => filterItems('Lunch')}>Lunch</button> 
                 <button className="btn btn-secondary w-40 mb-3" onClick={() => filterItems('Dinner')}>Dinner</button>
@@ -60,7 +57,7 @@ export default function Menu() {
             {/* </section> */}
 
                  {foods.map((food) => {
-                  const {id, title, price, img, desc, category} = food;
+                  const {id, title, price, img, desc} = food;
                   return(
                     <article key={id} className="food-item ">
                     {/* <div className=" row"> */}
