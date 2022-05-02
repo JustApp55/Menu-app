@@ -4,17 +4,25 @@ This project was bootstrapped with [Create React App](https://github.com/JustApp
 
 
 ## Usage of the website
-A display of all items on Index Page
-    ![Index Page of Items!](/public/images/index.png "Index Page")
+    A display of all items on Index Page
+![Index Page of Items!](/public/images/index.png "Index Page")
 
-To see only certain category (breakfast, lunch, drinks, & dessert) of food items, click one of the gray buttons below the "Menu Item" header on the Index page.
-     ![Category of Items!](/public/images/category.png "Index Page")
+    To see only certain category (breakfast, lunch, drinks, & dessert) of food items, click one of the gray buttons below the "Menu Item" header on the Index page.
+![Category of Items!](/public/images/category.png "Index Page")
 
-On Index page, click on any image-item of your preference to know more of the food item and will be taking to the Show Page
-    ![Show Page of individual product!](/public/images/show.png "Index Page")
+    On Index page, click on any image-item of your preference to know more of the food item and will be taking to the Show Page
+![Show Page of individual product!](/public/images/show.png "Index Page")
 
-Click on Create New Product button on Index Page to take you to List New Item page
-    ![List New Item page to list new product!](/public/images/new.png "List New Item page")
+Usage of the buttons
+
+    Click on Create New Product button on Index Page to take you to List New Item page
+![List New Item page to list new product!](/public/images/new.png "List New Item page")
+
+    Click on Edit button to edit product, 
+![Edit Page to update product!](/public/images/edit.png "Edit Page")
+
+   - Click on the Home button to take you back to the Index page for further exploration
+   - Click on Delete button to remove item 
 
 
 ## Built With
@@ -54,8 +62,7 @@ I decided to build a backend application with Node, Mongoose, and Express, which
 
 ### Deployment
 
-This application is deployed on heroku: [https://jamenu-app.herokuapp.com/](https://jamenu-app.herokuapp.com/)
-
+This application is deployed on heroku, view [here] (https://jamenu-app.herokuapp.com/)
 
 ## Contributing
     1. Fork it
