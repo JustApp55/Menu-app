@@ -92,15 +92,7 @@ export const lists = [
         img: 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/10/0/FN_On-the-Road-Clinton-Street-Blueberry_s4x3.jpg.rend.hgtvcom.441.331.suffix/1383766676634.jpeg',
         desc: "A brioche French toast with blackberries, lemon curd, and fresh blackberry syrup"
     },
-    {
-       
-        id: "11 ",
-        title: 'Pina Colada ',
-        category: 'Drinks',
-        price: 11.95,
-        img: 'https://www.acouplecooks.com/wp-content/uploads/2020/11/Pina-Colada-056.jpg',
-        desc: "Hands down, the BEST Pina Colada. The flavor trifecta of pineapple, coconut and rum."
-    },
+    
     {
        
         id: "12 ",
