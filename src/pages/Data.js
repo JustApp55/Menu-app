@@ -23,11 +23,11 @@ export const lists = [
     {
        
         id: " 3",
-        title: 'Grilled Filet Mignon',
+        title: 'Filet Mignon',
         category: 'Dinner',
         price: 30.00,
         img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxKkQKGwmhQ986g-7TdJ1i55eoXDiI9W80a3c4fYHWSg4anwXM6EdJxgbR4jLu_lcoBu0&usqp=CAU.jpg',
-        desc: 'Grilled Filet Mignon with delicious classic French Bearnaise and dipping steamed asparagus spears.'
+        desc: 'Grilled Filet Mignon with delicious French Bearnaise and dipping steamed asparagus'
     },
     {
         
@@ -36,7 +36,7 @@ export const lists = [
         category: 'Dinner',
         price: 16.50,
         img: 'https://exquisite-taste-magazine.com/wp-content/uploads/2019/11/Arwana-signature-dish-Lobster-Thermidor.jpg',
-        desc: 'French dish of lobster meat cooked in a rich wine sauce, stuffed back into a lobster shell with egg yolks'
+        desc: 'French dish of lobster meat cooked in a rich wine sauce with egg yolks'
     },
     {
    
@@ -54,7 +54,7 @@ export const lists = [
         category: 'Drinks',
         price: 11.95,
         img: 'https://www.culinaryhill.com/wp-content/uploads/2021/12/Piña-Colada-Culinary-Hill-1200x800-1-500x500.jpg',
-        desc: 'Hands down, the BEST Pina Colada. The flavor trifecta of pineapple, coconut and rum just can’t be beat when it comes to feeling and tasting that tropical vibe.'
+        desc: 'Hands down, the BEST Pina Colada. The flavor trifecta of pineapple, coconut and rum.'
     },
     {
        
