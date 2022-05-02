@@ -22,18 +22,29 @@ const deleteTheProduct = () => {
 }
 
     return (
-        <div className="show">
-            <h1 className="order">Your Order</h1>
-                   {/* <div className="showd"> */}
+        <div >
+        <div className="show text-center">
+            <h1 className="one">Your Order</h1>
+          <div className=" row col d-flex justify-content-center" >
+              <div className="col-sm-2">
+                <div className=" ">
+                  <div className="card ax-auto" >
 
-              <img style={{height:'600px', width: '600px'}} src={order.img} alt=""/> <br/>
-              <h3 className="ot">{order.title}</h3> 
-              <h3 className="op">{order.price}</h3> 
-              <p className="op">{order.desc}</p> <br/>
+              <img  src={order.img} className="card-img-top" alt=" "/> <br/>
+              <div className="card-body">
+                <h3 className="card-title">{order.title}</h3> 
+                <h3 className="card-price">{order.price}</h3> 
+                 <p className="card-text">{order.desc}</p> <br/>
 
-                    {/* </div> */}
-            <button onClick={() => {nav(`/${id}/edit`)}} className="ed">Edit Order</button>
-            <button onClick={deleteTheProduct} className="del">Delete</button>
+                    
+                 <button onClick={() => {nav(`/${id}/edit`)}} className="ed mb-3">Edit Order</button>
+                 <button onClick={deleteTheProduct} className="del mb-3">Delete</button>
+             </div>
+                 </div>
+                   </div>
+                </div>
+          </div>
+        </div>
         </div>
     )
 }

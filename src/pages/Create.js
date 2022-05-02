@@ -22,7 +22,7 @@ export default function Create() {
     }
 
     return (
-        <div className="create">
+        <div className="create text-center">
             <h1 className="crr">Create Food Item</h1>
             <form onSubmit={createTheProduct} id="emenu">
                 Title: <input type='text' name='title'/> <br/>

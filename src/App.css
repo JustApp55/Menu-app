@@ -43,7 +43,7 @@ body{
 }
 
 
-/* ............ Menu Page ......... */
+/* ................................ Menu Page .......................... */
 
 .index{
   /* font-size: 50px;
@@ -88,12 +88,7 @@ body{
   right: 480.5px;
 }
 
- /* .container{
-    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-  } */
-
-  .menu{
+.menu{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 1rem;
@@ -129,15 +124,6 @@ body{
 	box-sizing: border-box;
 	box-shadow: 0 0 5px 5px rgb(198, 146, 13);
 
-    /* display: block; */
-    
-    /* margin-right: 20px; */
-    
-    /* align-items: center; */
-
-    /* margin: 10px; */
-    /* float: left; */
-
 }
 
 .item-info {
@@ -148,7 +134,6 @@ body{
 
 .item-info header{
     display: flex;
-    /* justify-content: space-between; */
     margin: 1px;
     border-bottom: 0.5px dotted var(--clr-grey-5);
 }
@@ -174,4 +159,58 @@ body{
 .card-title{
     font-size: 20px;
     margin: 10px 0 0 -140px;
+}
+
+/* ................................ Show Page .......................... */
+
+.show{
+    margin: 10rem;
+}
+
+.one {
+  font-weight: 700;
+  font-size: 10.5rem;
+  letter-spacing: 15px;
+  color: rgb(107, 102, 102);
+
+  position: relative;
+  top: -100px;
+ 
+}
+
+.scard{
+
+}
+/* ................................ Create Page .......................... */
+
+.crr{
+    font-weight: 700;
+  font-size: 10.5rem;
+  letter-spacing: 15px;
+  color: rgb(107, 102, 102);
+
+  position: relative;
+  top: -100px;
+  margin: 10rem;
+}
+
+#emenu{
+    font-size: 3rem;
+}
+
+
+/* ................................ Edit Page .......................... */
+.efi{
+    font-weight: 700;
+  font-size: 10.5rem;
+  letter-spacing: 15px;
+  color: rgb(107, 102, 102);
+
+  position: relative;
+  top: -100px;
+  margin: 10rem;
+}
+
+#edprod{
+    font-size: 3rem;
 }

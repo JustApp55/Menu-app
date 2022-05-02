@@ -32,7 +32,7 @@ export default function Edit() {
 
 
     return (
-        <div className="edit">
+        <div className="edit text-center">
             <h1 className="efi">Edit Food Item</h1>
             <form onSubmit={editTheProduct} id="edprod">
                 Title: <input type='text' name='title' defaultValue={data.title} /> <br/>
