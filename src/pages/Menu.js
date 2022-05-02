@@ -41,12 +41,12 @@ export default function Menu() {
                  
           <div className="row" >
             <div className="fill  btn-group" >
-                <button className="btn btn-secondary w-30 mb-3"  onClick={() =>setData(lists)} >All</button>  
-                <button className="btn btn-secondary w-30 mb-3" onClick={() => filterItems('Breakfast')}>Breakfast</button> 
-                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Lunch')}>Lunch</button> 
-                <button className="btn btn-secondary w-20 mb-3" onClick={() => filterItems('Dinner')}>Dinner</button>
-                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Drinks')}>Drinks</button> 
-                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Dessert')}>Dessert</button> 
+                <button className="btn btn-secondary w-40 mb-3"  onClick={() =>setData(lists)} >All</button>  
+                <button className="btn btn-secondary w-40 mb-3" onClick={() => filterItems('Breakfast')}>Breakfast</button> 
+                <button className="btn btn-secondary w-40 mb-3" onClick={() => filterItems('Lunch')}>Lunch</button> 
+                <button className="btn btn-secondary w-40 mb-3" onClick={() => filterItems('Dinner')}>Dinner</button>
+                <button className="btn btn-secondary w-40 mb-3" onClick={() => filterItems('Drinks')}>Drinks</button> 
+                <button className="btn btn-secondary w-40 mb-3" onClick={() => filterItems('Dessert')}>Dessert</button> 
             </div>
           </div>
 
