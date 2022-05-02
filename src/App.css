@@ -17,7 +17,7 @@ body{
 
 #home{
     margin: -5px 0 0 50px;
-    font-size: 25px;
+    font-size: 15px;
     color: whitesmoke;
 }
 
@@ -31,8 +31,8 @@ body{
 }
 
 .nav-item {
-    padding-left: 150px;
-    padding-right: 1550px;
+    padding-left: 100px;
+    padding-right: 1050px;
     font-size: 15px;
     font-weight: 600;
    
@@ -85,7 +85,7 @@ body{
 .fill{
   position: absolute;
   top: -70px;
-  right: 1000.5px;
+  right: 1370.5px;
 }
 
  /* .container{
@@ -101,8 +101,8 @@ body{
 
 .card {
    
-    height: 500px;
-    width: 500px;
+    height: 350px;
+    width: 300px;
     border-radius: 10%;
 	background-image: linear-gradient(#f9f047, #f0f8f3);
 
@@ -116,8 +116,8 @@ body{
 }
 
 .card-img-top{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     
     border-radius: 10%;
 	/* background-image: linear-gradient(#f9f047, #0fd850); */
