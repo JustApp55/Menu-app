@@ -72,13 +72,13 @@ body{
   color: rgb(107, 102, 102);
 
   position: relative;
-  top: -10px;
+  top: -30px;
 }
 
 #new{
   position: relative;
   top: -140px;
-  left: -42.5%;
+  left: -35.5%;
   color: rgb(107, 102, 102);
 }
 
@@ -167,7 +167,7 @@ body{
     color: rgb(198, 146, 13);
     font-size: 20px;
     position: relative;
-    top: -30px;
+    top: -36px;
     margin: 10px 0px -10px 200px;
 }
 
