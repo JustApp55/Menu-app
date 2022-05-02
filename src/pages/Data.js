@@ -87,7 +87,7 @@ export const lists = [
         // id: "62698367c1b877061f84176b",
         id: "10 ",
         title: 'Dumbo Pancake ',
-        category: '',
+        category: 'Breakfast',
         price: 12.95,
         img: 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/10/0/FN_On-the-Road-Clinton-Street-Blueberry_s4x3.jpg.rend.hgtvcom.441.331.suffix/1383766676634.jpeg',
         desc: "A brioche French toast with blackberries, lemon curd, and fresh blackberry syrup"
@@ -96,7 +96,7 @@ export const lists = [
         // id: "626984fec1b877061f84176c",
         id: "11 ",
         title: 'Pina Colada ',
-        category: 'Breakfast',
+        category: 'Drinks',
         price: 11.95,
         img: 'https://www.acouplecooks.com/wp-content/uploads/2020/11/Pina-Colada-056.jpg',
         desc: "Hands down, the BEST Pina Colada. The flavor trifecta of pineapple, coconut and rum just can’t be beat when it comes to feeling and tasting that tropical vibe."
