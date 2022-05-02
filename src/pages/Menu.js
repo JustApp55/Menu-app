@@ -77,7 +77,7 @@ export default function Menu() {
                                <h3 className="card-title">{title}</h3>
                                <h3 className="card-price">${price}</h3> <br/>
                                <p className="card-text">{desc}</p>
-                               {/* <a href="#cart" className="btn btn-primary ">Add Item</a> */}
+                               <a href="#cart" className="btn btn-primary ">Add Item</a>
                            </div>
                        </div>
                       </div>
