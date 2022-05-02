@@ -185,13 +185,13 @@ body{
 
 .crr{
     font-weight: 700;
-  font-size: 10.5rem;
+  font-size: 5.5rem;
   letter-spacing: 15px;
   color: rgb(107, 102, 102);
 
   position: relative;
   top: -100px;
-  margin: 6rem;
+  margin: 3rem;
 }
 
 #emenu{
@@ -202,13 +202,13 @@ body{
 /* ................................ Edit Page .......................... */
 .efi{
     font-weight: 700;
-  font-size: 10.5rem;
+  font-size: 5.5rem;
   letter-spacing: 15px;
   color: rgb(107, 102, 102);
 
   position: relative;
   top: -100px;
-  margin: 6rem;
+  margin: 3rem;
 }
 
 #edprod{
