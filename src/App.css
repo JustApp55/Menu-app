@@ -72,7 +72,7 @@ body{
   color: rgb(107, 102, 102);
 
   position: relative;
-  top: -190px;
+  top: -20px;
 }
 
 #new{
@@ -84,7 +84,7 @@ body{
 
 .fill{
   position: absolute;
-  top: -70px;
+  top: -100px;
   right: 350.5px;
 }
 
@@ -101,8 +101,8 @@ body{
 
 .card {
    
-    height: 450px;
-    width: 400px;
+    height: 400px;
+    width: 320px;
     border-radius: 10%;
 	background-image: linear-gradient(#f9f047, #f0f8f3);
 
@@ -159,24 +159,24 @@ body{
 
 
 .card-text{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 
-.desc{
+/* .desc{
     margin-bottom: 0;
     padding-top: 1rem;
-    font-size: 20px;
+    font-size: 25px; */
    
 }
 
 .card-price{
     color: rgb(198, 146, 13);
-    font-size: 25px;
-    /* margin: 1px 40px 50px 140px; */
+    font-size: 20px;
+    margin: 1px 40px 50px 140px;
 }
 
 .card-title{
-    font-size: 25px;
-    /* margin: 10px; */
+    font-size: 20px;
+    margin: 10px;
 }
