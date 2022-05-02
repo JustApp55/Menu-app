@@ -164,7 +164,7 @@ body{
 /* ................................ Show Page .......................... */
 
 .show{
-    margin: 3rem;
+    margin: 5rem;
 }
 
 .one {
@@ -174,7 +174,7 @@ body{
   color: rgb(107, 102, 102);
 
   position: relative;
-  top: -100px;
+  top: -40px;
  
 }
 
@@ -190,7 +190,7 @@ body{
   color: rgb(107, 102, 102);
 
   position: relative;
-  top: -100px;
+  top: -40px;
   margin: 3rem;
 }
 
@@ -207,7 +207,7 @@ body{
   color: rgb(107, 102, 102);
 
   position: relative;
-  top: -100px;
+  top: -40px;
   margin: 3rem;
 }
 
