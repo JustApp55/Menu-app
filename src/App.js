@@ -7,7 +7,7 @@ import Show from './pages/Show'
 import Edit from './pages/Edit'
 import Create from './pages/Create'
 import Order from './components/Order'
-import Cart from './components/Cart'
+import {lists} from './pages/Data'
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 
@@ -52,16 +52,11 @@ function App() {
           </Nav>
         </Navbar.Collapse>
 
-
       </Navbar>
-     
-   
-      
-      
 
       <Routes>
         <Route  path='/' element={<Menu />} />
-        <Route  path='/cart' element={<Cart />} />
+        <Route  path='/category' element={<lists />} />
         <Route  path='/:id' element={<Show />} />
         <Route  path='/:id/edit' element={<Edit />} />
         <Route  path='/create' element={<Create />} />

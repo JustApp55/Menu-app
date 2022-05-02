@@ -29,3 +29,9 @@ export const editProduct = (id, updateTheProduct) => {
     const response = axios.put(URL, updateTheProduct)
     return response
 }
+
+export const lists = (category) => {
+    const URL = `http://localhost:3001/data/${category}`
+    const response = axios.put(URL, category)
+    return response
+}
