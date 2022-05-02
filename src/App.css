@@ -32,7 +32,7 @@ body{
 
 .nav-item {
     padding-left: 100px;
-    padding-right: 550px;
+    padding-right: 750px;
     font-size: 15px;
     font-weight: 600;
    
@@ -72,7 +72,7 @@ body{
   color: rgb(107, 102, 102);
 
   position: relative;
-  top: -100px;
+  top: -190px;
 }
 
 #new{
@@ -115,7 +115,7 @@ body{
   
 }
 
-.card-img{
+.card-img-top{
     height: 200px;
     width: 200px;
     
