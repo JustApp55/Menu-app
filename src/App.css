@@ -191,11 +191,11 @@ body{
 
   position: relative;
   top: -100px;
-  margin: 10rem;
+  margin: 6rem;
 }
 
 #emenu{
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
 
@@ -208,9 +208,9 @@ body{
 
   position: relative;
   top: -100px;
-  margin: 10rem;
+  margin: 6rem;
 }
 
 #edprod{
-    font-size: 3rem;
+    font-size: 1rem;
 }
