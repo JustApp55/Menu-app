@@ -47,15 +47,7 @@ export const lists = [
         img: 'https://berryworld.imgix.net/assets/Matt-Weedon-White-chocolate-cheesecake-with-Sweet-Eve-strawberries.jpg?crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=1500&q=60&w=2300.jpg',
         desc: 'A muffin with jam with almonds, more enticing than any of the lunch entrees'
     },
-    {
-        
-        id: "6 ",
-        title: 'Pina Colada',
-        category: 'Drinks',
-        price: 11.95,
-        img: 'https://www.culinaryhill.com/wp-content/uploads/2021/12/Piña-Colada-Culinary-Hill-1200x800-1-500x500.jpg',
-        desc: 'Hands down, the BEST Pina Colada. The flavor trifecta of pineapple, coconut and rum.'
-    },
+    
     {
        
         id: "7",
@@ -92,7 +84,15 @@ export const lists = [
         img: 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/10/0/FN_On-the-Road-Clinton-Street-Blueberry_s4x3.jpg.rend.hgtvcom.441.331.suffix/1383766676634.jpeg',
         desc: "A brioche French toast with blackberries, lemon curd, and fresh blackberry syrup"
     },
-    
+    {
+       
+        id: "11 ",
+        title: 'Pina Colada ',
+        category: 'Drinks',
+        price: 11.95,
+        img: 'https://www.acouplecooks.com/wp-content/uploads/2020/11/Pina-Colada-056.jpg',
+        desc: "Hands down, the BEST Pina Colada. The flavor trifecta of pineapple, coconut and rum."
+    },
     {
        
         id: "12 ",
