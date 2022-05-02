@@ -68,9 +68,9 @@ export default function Menu() {
                         
                           {/* <a href={`/${food._id}`} ><img src={img} alt=" " className="image"/></a> */}
                  <div className="menu" >
-                    <div className="col-sm-3 ">
+                    <div className="col-md-6 ">
                        <div className="row">
-                       <div className="col-sm-3 mb-3">
+                       <div className="col-md-6 mb-3">
                         <div className="card" >
                             <a href={`/${food._id}`} ><img src={img} className="card-img-top" alt=" " /></a>
                            <div className="card-body">
