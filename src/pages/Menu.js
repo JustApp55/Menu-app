@@ -41,12 +41,12 @@ export default function Menu() {
                  
           <div className="row" >
             <div className="fill  btn-group" >
-                <button className="btn btn-secondary w-25 mb-5"  onClick={() =>setData(lists)} >All</button>  
-                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Breakfast')}>Breakfast</button> 
-                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Lunch')}>Lunch</button> 
-                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Dinner')}>Dinner</button>
-                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Drinks')}>Drinks</button> 
-                <button className="btn btn-secondary w-25 mb-5" onClick={() => filterItems('Dessert')}>Dessert</button> 
+                <button className="btn btn-secondary w-25 mb-3"  onClick={() =>setData(lists)} >All</button>  
+                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Breakfast')}>Breakfast</button> 
+                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Lunch')}>Lunch</button> 
+                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Dinner')}>Dinner</button>
+                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Drinks')}>Drinks</button> 
+                <button className="btn btn-secondary w-25 mb-3" onClick={() => filterItems('Dessert')}>Dessert</button> 
             </div>
           </div>
 
@@ -68,9 +68,9 @@ export default function Menu() {
                         
                           {/* <a href={`/${food._id}`} ><img src={img} alt=" " className="image"/></a> */}
                  <div className="menu" >
-                    <div className="col-md-6 ">
+                    <div className="col-md-2 ">
                        <div className="row">
-                       <div className="col-md-6 mb-3">
+                       <div className="col-md-2 mb-3">
                         <div className="card" >
                             <a href={`/${food._id}`} ><img src={img} className="card-img-top" alt=" " /></a>
                            <div className="card-body">
