@@ -26,7 +26,7 @@ const deleteTheProduct = () => {
         <div className="show text-center">
             <h1 className="one">Your Order</h1>
           <div className=" row col d-flex justify-content-center" >
-              <div className="col-sm-2">
+              <div className="col-sm-3">
                 <div className=" ">
                   <div className="card ax-auto" >
 
