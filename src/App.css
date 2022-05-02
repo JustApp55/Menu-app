@@ -77,7 +77,7 @@ body{
 
 #new{
   position: relative;
-  top: -270px;
+  top: -260px;
   left: -60.5%;
   color: rgb(107, 102, 102);
 }
@@ -95,8 +95,8 @@ body{
 
   .menu{
     display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   margin: 11rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem;
   }  
 
 .card {

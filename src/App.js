@@ -33,7 +33,7 @@ function App() {
 
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse>
-          <Nav className="nav-item nav-link px-4">
+          <Nav className="nav-item nav-link px-3">
             <NavDropdown title="Products" >
               <NavDropdown.Item href="#products/tea">Tea</NavDropdown.Item>
               <NavDropdown.Item href="#products/coffee">Coffee</NavDropdown.Item>
