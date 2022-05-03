@@ -37,13 +37,9 @@ function App() {
               <Nav.Link href="#donation" className="nav-item nav-link px-2">Donation</Nav.Link>
               <Nav.Link href="#order" className="nav-item nav-link px-2">Order</Nav.Link>
               <Nav.Link href="#contact-us" className="nav-item nav-link px-2">Contact Us</Nav.Link>
-              <Nav.Link ><a href="#" id="cart"><i className="fa fa-shopping-cart px-2"></i> Cart <span class="badge"></span></a></Nav.Link>
-             
+              <Nav.Link ><a href="#" id="cart"><i className="fa fa-shopping-cart px-2"></i> Cart <span class="badge"></span></a></Nav.Link>             
           </Nav>
         
-          {/* <Nav>
-            <Link to="/cart"><Button color={isActive(history, "/cart")}>Cart<Badge color="accent" badgeContent={cart.itemTotal()} > <CartIcon /> </Badge></Button></Link>
-          </Nav> */}
         </Navbar.Collapse>
 
       </Navbar>
