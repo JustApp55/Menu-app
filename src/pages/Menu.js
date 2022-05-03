@@ -11,12 +11,12 @@ export default function Menu() {
    const [foods, setFoods] = useState([])
    const [data, setData] = useState(lists)
 
-    
     useEffect(() => {
         getProducts()
         .then(res => setFoods(res.data))
     }, [])
     console.log(foods)
+
 
     const filterItems= (catItem) => {
         const results = lists.filter((curInfo) => {

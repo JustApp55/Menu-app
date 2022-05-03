@@ -24,7 +24,7 @@ const deleteTheProduct = () => {
     return (
         <div >
         <div className="show text-center">
-            <h1 className="one">Your Order</h1>
+            <h1 className="one">Show Page</h1>
           <div className=" row col d-flex justify-content-center" >
               <div className="col-sm-3">
                 <div className=" ">
