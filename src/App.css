@@ -38,6 +38,15 @@ body{
    
 }
 
+.cart {
+    width: 350px;
+    float: right;
+    text-align: center;
+    border: 1px solid rgb(107, 102, 102);
+    overflow-y: scroll;
+    height: 100%;
+}
+
 .nav-link{
     color: whitesmoke;
 }

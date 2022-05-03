@@ -56,13 +56,14 @@ This section lists any major framework/library used for this project
 ## Challenges During this Project
 My original goal for the Menu app was to make this a fullstack application. Since I would like to teach myself other frontend applications, I decided to keep the frontend and backend separate, using the backend as an API for any frontend.
 
-I decided to use React to know the framework well. It was part of the cirriculum at Per Scholas and a requirement for Project 3. This project was my opportunity to create a React application from start to finish.
+I decided to use React for my framework. It was part of the cirriculum at Per Scholas and a requirement for Project 3. This project was my opportunity to create a React application from start to finish.
 
-I decided to build a backend application with Node, Mongoose, and Express, which you can view [here] (https://github.com/JustApp55/Menu-api)
+I decided to build a backend application with Node, Mongoose, and Express, which you can view [here](https://github.com/JustApp55/Menu-api)
+
+My next goal is to add a cart feature to the application.
 
 ### Deployment
-
-This application is deployed on heroku, view [here] (https://jamenu-app.herokuapp.com/)
+This application is deployed on heroku and it can be viewed [here](https://jamenu-app.herokuapp.com/)
 
 ## Contributing
     1. Fork it
@@ -73,13 +74,4 @@ This application is deployed on heroku, view [here] (https://jamenu-app.herokuap
 
 ## License
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, or distribute copies of the Software.
-
-
-
-
-
-
-
-
-
 

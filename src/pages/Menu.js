@@ -47,12 +47,11 @@ export default function Menu() {
             </div>
           </div>
 
+                     {/* <div className="cart" id="cart">
+                         <div className="title">CART</div><hr/>
+                         <div id="title"></div>
+                     </div> */}
 
-                 {/* <Order /> */}
-            {/* <div>
-            <Order categories={categories} filterItems={filterItems} />
-                <Menu foods={dish}/>
-            </div> */}
                 
             {/* </section> */}
 
@@ -76,31 +75,26 @@ export default function Menu() {
                                {/* <p className="card-text">{desc}</p> <br/> */}
                                <a href="#cart" className="btn btn-primary ">Add Item</a>
                            </div>
+                           
                        </div>
                       </div>
                       </div>
+
+                     
+
                     </div>
                  </div>
-              
-
-                      {/* </div> */}
-                          {/* <div className="item-info col-sm-1">
-                            <header className="card-block">
-                                <h3 className="title">{title}</h3>
-                                <h3 className="price">${price}</h3>
-                            </header>
-                                <p className="desc">{desc}</p>
-                          </div> */}
-                      {/* </div> */}
-
+                      
                    </article>
                    
                   )
+
+                  
                   
               })}
               
              
-          
+              
            
         </div>
     )

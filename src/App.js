@@ -42,9 +42,9 @@ function App() {
               <NavDropdown.Item href="#products/promo">Promo</NavDropdown.Item>
             </NavDropdown>
               <Nav.Link href="#blog" className="nav-item nav-link px-2">Donation</Nav.Link>
-              <Nav.Link href="#about-us" className="nav-item nav-link px-2">About Us</Nav.Link>
+              <Nav.Link href="#order" className="nav-item nav-link px-2">Order</Nav.Link>
               <Nav.Link href="#contact-us" className="nav-item nav-link px-2">Contact Us</Nav.Link>
-              {/* <Nav.Link href="#cart" className="nav-item nav-link px-5">Cart</Nav.Link> */}
+              {/* <Nav.Link href="#cart" className="cart nav-link px-5">Cart</Nav.Link> */}
               {/* <Nav.Link href="#create" className="nav-item nav-link px-5">New Menu</Nav.Link> */}
           </Nav>
           <Nav>
