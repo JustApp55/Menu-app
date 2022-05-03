@@ -5,6 +5,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
+    background-color: url( );
 }
 
 /* .............. App.js ......... */
@@ -70,7 +71,7 @@ body{
 #new{
   position: relative;
   top: -100px;
-  left: -65.5%;
+  left: -80%;
   color: rgb(107, 102, 102);
 }
 
