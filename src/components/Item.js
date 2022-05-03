@@ -4,7 +4,7 @@ import Menu from '../pages/Menu'
 import Order from './Order'
 import foods from './Data'
 import {React, useState, useEffect} from 'react'
-//import {getProducts} from '../services/getRequests'
+
 
 const allcategories = ['all', ...new Set(foods.map((food) => food.category))];
 
@@ -12,11 +12,7 @@ export default function Item() {
     const [dish, setDish] = useState(foods)
     const [categories, setCategories] = useState(allcategories)
 
-    // useEffect(() => {
-    //     getProducts()
-    //     .then(res => setDish(res, data))
-    // }, [])
-    //     console.log(dish)
+   
 
 
     const filterItems = (category) => {
