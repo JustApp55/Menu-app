@@ -7,6 +7,8 @@ import Show from './pages/Show'
 import Edit from './pages/Edit'
 import Create from './pages/Create'
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import Cart from './components/Cart'
+
 
 
 function App() {
@@ -35,13 +37,13 @@ function App() {
               <Nav.Link href="#donation" className="nav-item nav-link px-2">Donation</Nav.Link>
               <Nav.Link href="#order" className="nav-item nav-link px-2">Order</Nav.Link>
               <Nav.Link href="#contact-us" className="nav-item nav-link px-2">Contact Us</Nav.Link>
-              <Nav.Link href="#cart" className="cart nav-link px-5">Cart</Nav.Link>
+              <Nav.Link ><a href="#" id="cart"><i className="fa fa-shopping-cart px-2"></i> Cart <span class="badge"></span></a></Nav.Link>
              
           </Nav>
         
-          <Nav>
-
-          </Nav>
+          {/* <Nav>
+            <Link to="/cart"><Button color={isActive(history, "/cart")}>Cart<Badge color="accent" badgeContent={cart.itemTotal()} > <CartIcon /> </Badge></Button></Link>
+          </Nav> */}
         </Navbar.Collapse>
 
       </Navbar>
@@ -52,6 +54,7 @@ function App() {
         <Route  path='/:id' element={<Show />} />
         <Route  path='/:id/edit' element={<Edit />} />
         <Route  path='/create' element={<Create />} />
+        <Route path='/cart' component={Cart} />
       </Routes>
 
     </Router>

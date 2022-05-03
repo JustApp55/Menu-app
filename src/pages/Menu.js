@@ -30,7 +30,7 @@ export default function Menu() {
         <div className="menu text-center"><br/> <br/> 
            
                    
-            <h1 className="index">Menu Items</h1>  <br/> <br/> <br/> <br/> 
+            <h1 className="index">Atlas Diner</h1>  <br/> <br/> <br/> <br/> 
                 <nav id="new" >
                    <button type="button" className="btn btn-secondary pull-right"  onClick={()=> {nav("/create")}} >New Menu</button>
                 </nav> <br/> <br/> <br/> 
