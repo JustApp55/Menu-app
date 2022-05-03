@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {useState, useEffect} from 'react'
 import {getProducts} from '../services/getRequests'
 import {useNavigate} from 'react-router-dom'
-import Order from '../components/Order'
 import {lists} from './Data'
 
     

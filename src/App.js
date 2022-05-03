@@ -6,8 +6,6 @@ import Menu from './pages/Menu'
 import Show from './pages/Show'
 import Edit from './pages/Edit'
 import Create from './pages/Create'
-import Order from './components/Order'
-import {lists} from './pages/Data'
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 
@@ -34,8 +32,9 @@ function App() {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#products/promo">Promo</NavDropdown.Item>
             </NavDropdown>
-           
-           
+            <NavDropdown title="Donation" >
+              <NavDropdown.Item href="#donation/cashapp">CashApp</NavDropdown.Item>
+            </NavDropdown>
               <Nav.Link href="#order" className="nav-item nav-link px-2">Order</Nav.Link>
               <Nav.Link href="#contact-us" className="nav-item nav-link px-2">Contact Us</Nav.Link>
               <Nav.Link href="#cart" className="cart nav-link px-5">Cart</Nav.Link>

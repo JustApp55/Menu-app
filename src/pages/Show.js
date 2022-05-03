@@ -14,7 +14,7 @@ useEffect(() => {
     getProduct(id)
     .then(res => setOrder(res.data))
 }, [])
-//console.log(order)
+
 
 const deleteTheProduct = () => {
     deleteProduct(id)
