@@ -29,12 +29,14 @@ export default function Menu() {
 
     return (
         <div className="menu text-center"><br/> <br/> 
-            {/* <section> */} 
+           
                    
             <h1 className="index">Menu Items</h1>  <br/> <br/> <br/> <br/> 
                 <nav id="new" >
                    <button type="button" className="btn btn-secondary pull-right"  onClick={()=> {nav("/create")}} >New Menu</button>
-                </nav> <br/> <br/> <br/>             
+                </nav> <br/> <br/> <br/> 
+
+          
                  
           <div className="row" >
             <div className="fill  btn-group" >
@@ -47,22 +49,13 @@ export default function Menu() {
             </div>
           </div>
 
-                     {/* <div className="cart" id="cart">
-                         <div className="title">CART</div><hr/>
-                         <div id="title"></div>
-                     </div> */}
 
-                
-            {/* </section> */}
 
                  {foods.map((food) => {
                   const {id, title, price, img, desc} = food;
                   return(
                     <article key={id} className="food-item ">
-                    {/* <div className=" row"> */}
-                      {/* <div className=" col-sm-3">  */}
-                        
-                          {/* <a href={`/${food._id}`} ><img src={img} alt=" " className="image"/></a> */}
+                
                  <div className="menu" >
                     <div className="col-md-12 ">
                        <div className="row">
@@ -72,7 +65,6 @@ export default function Menu() {
                            <div className="card-body">
                                <h3 className="card-title">{title}</h3>
                                <h3 className="card-price">${price}</h3> <br/>
-                               {/* <p className="card-text">{desc}</p> <br/> */}
                                <a href="#cart" className="btn btn-primary ">Add Item</a>
                            </div>
                            

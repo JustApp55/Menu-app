@@ -22,14 +22,7 @@ function App() {
            <Link to='/' className="link">Home</Link>
          </div>
 
-         {/* <div>
-            <Link to="/checkout">
-              <button className="btn btn-success float-right">Checkout</button>
-            </Link>
-            <Link to="/cart">
-              <button className="btn btn-primary float-right" style={{marginRight: "10px"}}>View Cart</button>
-            </Link>
-          </div> */}
+         
 
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse>
@@ -41,12 +34,14 @@ function App() {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#products/promo">Promo</NavDropdown.Item>
             </NavDropdown>
-              <Nav.Link href="#blog" className="nav-item nav-link px-2">Donation</Nav.Link>
+           
+           
               <Nav.Link href="#order" className="nav-item nav-link px-2">Order</Nav.Link>
               <Nav.Link href="#contact-us" className="nav-item nav-link px-2">Contact Us</Nav.Link>
-              {/* <Nav.Link href="#cart" className="cart nav-link px-5">Cart</Nav.Link> */}
-              {/* <Nav.Link href="#create" className="nav-item nav-link px-5">New Menu</Nav.Link> */}
+              <Nav.Link href="#cart" className="cart nav-link px-5">Cart</Nav.Link>
+             
           </Nav>
+        
           <Nav>
 
           </Nav>
