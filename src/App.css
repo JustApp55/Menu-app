@@ -5,7 +5,6 @@
 body{
     margin: 0;
     overflow-x: hidden;
-    background-color: url( );
 }
 
 /* .............. App.js ......... */
@@ -78,7 +77,7 @@ body{
 .fill{
   position: absolute;
   top: -20px;
-  right: 560.5px;
+  right: 540.5px;
 }
 
 .menu{
