@@ -32,9 +32,7 @@ function App() {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#products/promo">Promo</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Donation" >
-              <NavDropdown.Item href="#donation/cashapp">CashApp</NavDropdown.Item>
-            </NavDropdown>
+              <Nav.Link href="#donation" className="nav-item nav-link px-2">Donation</Nav.Link>
               <Nav.Link href="#order" className="nav-item nav-link px-2">Order</Nav.Link>
               <Nav.Link href="#contact-us" className="nav-item nav-link px-2">Contact Us</Nav.Link>
               <Nav.Link href="#cart" className="cart nav-link px-5">Cart</Nav.Link>
