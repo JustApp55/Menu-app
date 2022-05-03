@@ -5,10 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/JustApp
 
 ## Usage of the website
     A display of all items on Index Page
-![Index Page of Items!](/public/images/index.png "Index Page")
+![Index Page of Items!](/public/images/index2.png "Index Page")
 
     To see only certain category (breakfast, lunch, drinks, & dessert) of food items, click one of the gray buttons below the "Menu Item" header on the Index page.
-![Category of Items!](/public/images/category.png "Index Page")
+![Category of Items!](/public/images/category2.png "Index Page")
 
     On Index page, click on any image-item of your preference to know more of the food item and will be taking to the Show Page
 ![Show Page of individual product!](/public/images/show.png "Index Page")
